@@ -1,0 +1,52 @@
+body {
+  background: rgb(255, 245, 245);
+}
+
+h1,
+h4 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-family: 'Times New Roman';
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-family: 'Times New Roman';
+}
+
+/* .product-card */
+.product-card {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.produto-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
